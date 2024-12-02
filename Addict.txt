@@ -1,0 +1,13 @@
+
+
+Design Activity : what decisions does the software face and what are the rewards, what action is considered addictive
+
+Use RL framework like Q-learning
+
+Assign higher rewards for "addictive" behaviour
+
+Add "tolerance" effect. Addictive action returns less rewards / has more cost the more it is done
+
+Add "craving" : penalty for software if it doesn't choose addictive behaviour for a certain time
+
+Consider random rewards, environmental cues
