@@ -2,7 +2,7 @@ import cv2
 import tkinter as tk
 from tkinter import ttk
 from PIL import Image, ImageTk
-import Agent
+import laDiction.Agent as Agent
 import random
 
 a = Agent.Agent() #Init agent

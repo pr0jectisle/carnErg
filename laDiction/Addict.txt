@@ -11,3 +11,24 @@ Add "tolerance" effect. Addictive action returns less rewards / has more cost th
 Add "craving" : penalty for software if it doesn't choose addictive behaviour for a certain time
 
 Consider random rewards, environmental cues
+
+
+ideas : 
+
+status :
+
+Addiction : 
+
+    
+
+Craving
+
+
+
+
+Sober :
+
+    low to high progress bar
+
+    progress with last consumption made
+

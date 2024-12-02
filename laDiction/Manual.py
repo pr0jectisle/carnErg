@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import PhotoImage
 from PIL import Image, ImageTk
-import Agent
+import laDiction.Agent as Agent
 
 
 a = Agent.Agent()
