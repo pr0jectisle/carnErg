@@ -238,7 +238,7 @@ label_video = tk.Label(frame_media, bg='black')
 
 # Reset button (smaller, centered)
 reset_button = tk.Button(root, text="Reset", command=update_content, height=2, width=25, font=("Helvetica", 16), bg='grey')
-reset_button.pack(side="bottom", fill="x", padx=5, pady=20)
+reset_button.pack(side="bottom", padx=5, pady=20)
 
 # Run the update_content function to populate the window initially
 update_content()

@@ -1,0 +1,5 @@
+Association : lecture dans l'espace sémantique des images, textes et sons, faires des associations selon les distances
+
+Mashup - modification d'image à partir du texte. Faire un noise seed à partir d'une encryption du texte.
+
+Ajouter association de sons
