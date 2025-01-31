@@ -1,0 +1,28 @@
+name: Build macOS App
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: macos-latest  # Use GitHub's macOS runner
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          python3 -m venv venv
+          source venv/bin/activate
+          pip install --upgrade pip
+          pip install pyinstaller
+
+      - name: Build macOS executable
+        run: |
+          source venv/bin/activate
+          pyinstaller --onefile --windowed --add-data "assets:assets" main.py
+
+      - name: Upload macOS Build
+        uses: actions/upload-artifact@v3
+        with:
+          name: macOS-App
+          path: dist/main.app
