@@ -20,11 +20,11 @@ jobs:
         run: |
           source venv/bin/activate
           pyinstaller --onefile --windowed \
-  --add-data "images/creation:images/creation" \
-  --add-data "images/archive:images/archive" \
-  --add-data "textes/creation:textes/creation" \
-  --add-data "textes/archive:textes/archive" \
-  main.py
+          --add-data "images/creation:images/creation" \
+          --add-data "images/archive:images/archive" \
+          --add-data "textes/creation:textes/creation" \
+          --add-data "textes/archive:textes/archive" \
+          main.py
 
 
       - name: Upload macOS Build
